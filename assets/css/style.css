@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color:#f55;
+    background-color: rgb(252, 115, 65);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
@@ -29,12 +34,12 @@ h1 {
 
 /* Main */
 main {
-    background-color: lightgreen;
+    background-color: rgb(255, 212, 137);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color:orange;
+    background-color:rgb(255, 145, 42);
 }
