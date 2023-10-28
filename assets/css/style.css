@@ -23,6 +23,10 @@ header {
     background-color:#f55;
 }
 
+h1 {
+    font-family: 'Poiret One', sans-serif;
+}
+
 /* Main */
 main {
     background-color: lightgreen;
