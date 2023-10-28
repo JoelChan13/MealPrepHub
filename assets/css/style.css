@@ -30,7 +30,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: #deb;
 }
 
 h1 {
@@ -39,6 +39,19 @@ h1 {
     color: #deb
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #deb;
+}
 /* Main */
 main {
     background-color: rgb(255, 212, 137);
