@@ -18,7 +18,11 @@ body {
     font-family: 'Poiret One', sans-serif;
 }
 
-
+h1, h2, h3 {
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: 2px;
+    color: #deb
+}
 /* Header */
 header {
     background-color: rgb(252, 115, 65);
@@ -35,12 +39,6 @@ header {
 header a {
     text-decoration: none;
     color: #deb;
-}
-
-h1 {
-    font-family: 'Poiret One', sans-serif;
-    letter-spacing: 2px;
-    color: #deb
 }
 
 #menu {
@@ -88,20 +86,37 @@ main {
     margin-top: 38px;
 }
 
-main h2 {
-    font-size: 4rem;
+/* Hero section */
+#hero {
+    height: 750px;
+    width: 100%;
+    background: url("../images/mealprephero.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity level */
+    background-color: rgba(235, 120, 0, 0.7);
+    font-size: 130%;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 80px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #deb;
+}
+
+/* Recipe List section */
+#recipes {
+    font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
 }
-
-/* Hero section*/
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/mealprephero.webp") no-repeat center center/cover;
-}
-
-
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
@@ -151,6 +166,12 @@ main h2 {
     main {
         /* Push main content down to accomodate larger header */
         margin-top: 76px;
+    }
+
+        /* Hero section */
+        #cover-text {
+            width: 200px;
+            right: 50px;
     }
 }
 
