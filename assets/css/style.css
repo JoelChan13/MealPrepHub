@@ -101,14 +101,14 @@ main {
     text-transform: capitalize;
     position: absolute;
     bottom: 100px;
-    width: 80%;
+    width: 90%;
     min-height: 200px;
     padding-top: 20px;
     padding-left: 10px;
 }
 
 #mealprephub-title{
-    font-size: 300%;
+    font-size: 200%;
     padding-bottom: 20px;
     font-weight: 900;
 
@@ -180,7 +180,13 @@ main {
             width: 400px;
             left: 150px;
             bottom: 250px;
+            padding-left: 10px;
     }
+
+        #mealprephub-title {
+            font-size: 200%;
+            padding-bottom: 20px;
+            font-weight: 900;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
