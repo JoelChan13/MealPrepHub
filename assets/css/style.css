@@ -125,11 +125,27 @@ main {
         position: relative;
         padding: 10px;
     }
+
 #recipes {
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
 }
+
+#recipes a {
+text-decoration: none;
+color: #deb;
+}
+
+#recipe-selection{
+    font-size: 1.5rem;
+}
+
+    /* Indications regarding prep time cook time and difficulty */
+    #recipe-selection p{
+        font-size: 1rem;
+    }
+
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
