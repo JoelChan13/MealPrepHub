@@ -100,11 +100,18 @@ main {
     font-size: 130%;
     text-transform: capitalize;
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     width: 80%;
     min-height: 200px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+#mealprephub-title{
+    font-size: 300%;
+    padding-bottom: 20px;
+    font-weight: 900;
+
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -170,8 +177,9 @@ main {
 
         /* Hero section */
         #cover-text {
-            width: 200px;
-            right: 50px;
+            width: 400px;
+            left: 150px;
+            bottom: 250px;
     }
 }
 
