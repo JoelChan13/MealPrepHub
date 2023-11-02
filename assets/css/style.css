@@ -119,6 +119,12 @@ main {
 }
 
 /* Recipe List section */
+    /* Recipes section title */
+    #recipe-page-title {
+        background:url('../images/recipe-page-title.webp') no-repeat center/cover;
+        position: relative;
+        padding: 10px;
+    }
 #recipes {
     font-size: 3rem;
     text-align: center;
