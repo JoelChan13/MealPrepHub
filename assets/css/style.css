@@ -138,13 +138,26 @@ color: #deb;
 }
 
 #recipe-selection{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
     /* Indications regarding prep time cook time and difficulty */
     #recipe-selection p{
         font-size: 1rem;
+        font-weight: bolder;
+        color:#deb;
     }
+
+#recipe-selection div{
+    padding-top: 10px;
+}
+
+/* Spicy Chicken Popcorn Box */
+#spicy-chicken-popcorn {
+    background: url('../images/spicy-chicken-popcorn.jpg') no-repeat center center/cover;
+}
 
 /* Footer */
 #social-networks {
