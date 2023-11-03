@@ -1,5 +1,5 @@
 /* Google font import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Righteous&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poiret+One&family=Righteous&family=Roboto:wght@400;700;900&display=swap');
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -163,6 +163,15 @@ color: #deb;
     background: url('../images/bbq-beef-meatballs.webp') no-repeat center center/cover;
 }
 
+/* Protein Cinnamon Rolls */
+#protein-cinnamon-rolls {
+    background: url('../images/protein-cinnamon-rolls.webp') no-repeat center center/cover;
+}
+
+/* Peanut Butter Protein Granola */
+#pb-protein-granola {
+    background: url('../images/pb-protein-granola.webp') no-repeat center center/cover;
+}
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
