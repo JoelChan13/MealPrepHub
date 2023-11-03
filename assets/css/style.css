@@ -122,7 +122,8 @@ main {
     #recipe-page-title {
         background:url('../images/recipe-page-title.webp') no-repeat center/cover;
         position: relative;
-        padding: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
 #recipes {
