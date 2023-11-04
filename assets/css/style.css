@@ -151,19 +151,19 @@ color: #deb;
     letter-spacing: 2px;
 }
 
-    /* Indications regarding prep time cook time and difficulty */
+/* Indications regarding prep time cook time and difficulty */
     #recipe-selection p{
         font-size: 1rem;
         font-weight: bolder;
         color:#deb;
     }
 
-#recipe-selection div{
+    #recipe-selection div{
     padding-top: 10px;
 }
-/* Spicy Chicken Popcorn Recipe */
-    /* Spicy Chicken Popcorn Recipe Selection Box */
-#spicy-chicken-popcorn {
+
+/* Spicy Chicken Popcorn Recipe Selection Box */
+    #spicy-chicken-popcorn {
     background: url('../images/spicy-chicken-popcorn.jpg') no-repeat center center/cover;
 }
 
@@ -180,6 +180,36 @@ color: #deb;
 /* Peanut Butter Protein Granola */
 #pb-protein-granola {
     background: url('../images/pb-protein-granola.webp') no-repeat center center/cover;
+}
+
+/* Recipe Page Template */
+#recipe-hero {
+    height: 40vh;
+    width: 100%;
+}
+
+.recipe-hero-area {
+    position: relative;
+    height:40vh;
+}
+
+#recipe-hero-image {
+    max-height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.recipe-hero-title {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    background-color: #000;
+    opacity: .6;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Footer */
