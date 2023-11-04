@@ -203,13 +203,15 @@ color: #deb;
 
 .recipe-hero-title {
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     left: 20px;
-    background-color: #000;
-    opacity: .6;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
 }
 
 /* Footer */
@@ -278,9 +280,36 @@ color: #deb;
             font-weight: 900;
 }
 
+    /* Recipe Page Template */
+    .recipe-hero-title {
+     position: absolute;
+     bottom: 40px;
+     left: 20px;
+     background-color: rgba(252, 115, 65, .5);
+     color: #deb;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 1.2rem;
+ }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #deb;
     }
 
+    /* Recipe Page Template */
+    .recipe-hero-title {
+            position: absolute;
+            bottom: 40px;
+            left: 20px;
+            background-color: rgba(252, 115, 65, .5);
+            color: #deb;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 2rem;
+    }
