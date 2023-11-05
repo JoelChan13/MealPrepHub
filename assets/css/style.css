@@ -262,6 +262,20 @@ main #hero {
     font-size: 1.5rem;
     padding-left: 10px;
 }
+
+.recipe-child ul {
+    font family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 20px;
+}
+
+.recipe-child ol {
+    font family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 20px;
+}
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
@@ -383,18 +397,37 @@ main #hero {
         .recipe-child:first-child {
             flex-basis: 30vw;
             flex-grow: 1;
-            margin-right: 20px;
+            border-right: 5px solid #deb;
+            border-bottom: 5px solid #deb;
+            border-radius: 20px;
         }
-
+        
         .recipe-child:nth-child(2) {
-            flex-basis: 70vw;
-            flex-grow: 1;
+             flex-basis: 70vw;
+             flex-grow: 1;
+             border-right: 5px solid #deb;
+             border-bottom: 5px solid #deb;
+             border-radius: 20px;
         }
 
         .recipe-child h3 {
             font-family: 'Poiret One', sans-serif;
             font-size: 1.5rem;
             padding-left: 10px;
+        }
+
+        .recipe-child ul {
+            font family:'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #deb;
+            padding-left: 20px;
+        }
+
+        .recipe-child ol {
+            font family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #deb;
+            padding-left: 15px;
         }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -456,16 +489,38 @@ main #hero {
    }
 
    .recipe-child:first-child {
-       margin-right: 20px;
+       flex-basis: 30vw;
+       flex-grow: 1;
+       border-right: 5px solid #deb;
+       border-bottom: 5px solid #deb;
+       border-radius: 20px;
    }
 
    .recipe-child:nth-child(2) {
        flex-basis: 70vw;
        flex-grow: 1;
+       border-right: 5px solid #deb;
+       border-bottom: 5px solid #deb;
+       border-radius: 20px;
    }
 
    .recipe-child h3 {
        font-family: 'Poiret One', sans-serif;
        font-size: 1.5rem;
+       color: #deb;
        padding-left: 10px;
+   }
+
+   .recipe-child ul {
+       font family: 'Roboto', sans-serif;
+       font-size: 1rem;
+       color: #deb;
+       padding-left: 20px;
+   }
+
+   .recipe-child ol {
+       font family: 'Roboto', sans-serif;
+       font-size: 1rem;
+       color: #deb;
+       padding-left: 15px;
    }
