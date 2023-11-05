@@ -216,6 +216,22 @@ main #hero {
     font-size: 1rem;
 }
 
+.recipe-hero-macros {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.recipe-hero-macros h3 {
+    font-size: 0.5rem;
+    font-family: 'Poiret One', sans-serif;
+}
     /* Prep Time Cook Time Difficulty Bar */
 #prep-cook-difficulty-bar{
     height:20px;
@@ -357,6 +373,22 @@ main #hero {
      font-size: 1.2rem;
  }
 
+ .recipe-hero-macros {
+     position: absolute;
+     bottom: 15px;
+     left: 20px;
+     background-color: rgba(252, 115, 65, .5);
+     color: #deb;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+
+ .recipe-hero-macros h3 {
+     font-size: 0.5rem;
+     font-family: 'Poiret One', sans-serif;
+ }
         /* Prep Time Cook Time Difficulty Bar */
     #prep-cook-difficulty-bar {
         height: 25px;
@@ -449,6 +481,23 @@ main #hero {
             padding-bottom: 10px;
             font-size: 2rem;
     }
+
+        .recipe-hero-macros {
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            background-color: rgba(252, 115, 65, .5);
+            color: #deb;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    
+        .recipe-hero-macros h3 {
+            font-size: 0.5rem;
+            font-family: 'Poiret One', sans-serif;
+        }
         /* Prep Time Cook Time Difficulty Bar */
    .prep-cook-difficulty {
        width: 100%;
