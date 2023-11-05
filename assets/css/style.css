@@ -256,6 +256,12 @@ main #hero {
 .recipe-child:first-child{
     margin-right:20px;
 }
+
+.recipe-child h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
@@ -375,9 +381,21 @@ main #hero {
         }
     
         .recipe-child:first-child {
+            flex-basis: 30vw;
+            flex-grow: 1;
             margin-right: 20px;
         }
 
+        .recipe-child:nth-child(2) {
+            flex-basis: 70vw;
+            flex-grow: 1;
+        }
+
+        .recipe-child h3 {
+            font-family: 'Poiret One', sans-serif;
+            font-size: 1.5rem;
+            padding-left: 10px;
+        }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -439,4 +457,15 @@ main #hero {
 
    .recipe-child:first-child {
        margin-right: 20px;
+   }
+
+   .recipe-child:nth-child(2) {
+       flex-basis: 70vw;
+       flex-grow: 1;
+   }
+
+   .recipe-child h3 {
+       font-family: 'Poiret One', sans-serif;
+       font-size: 1.5rem;
+       padding-left: 10px;
    }
