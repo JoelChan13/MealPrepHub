@@ -88,7 +88,7 @@ nav {
 }
 /* Main */
 main {
-    /* Make main element take up any surplus space to push footer down */
+/* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 38px;
 }
@@ -102,7 +102,7 @@ main #hero {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity level */
+/* Final rgba value sets the opacity level */
     background-color: rgba(235, 120, 0, 0.7);
     font-size: 130%;
     text-transform: capitalize;
@@ -125,46 +125,46 @@ main #hero {
     color: #deb;
 }
 
-/* Recipe List section */
-    /* Recipes List section title */
-    #recipe-list-title {
-        background:url('../images/recipe-page-title.webp') no-repeat center/cover;
-        position: relative;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
+/* Recipe List Section */
+    /* Recipes List Section Title */
+#recipe-list-title {
+    background:url('../images/recipe-page-title.webp') no-repeat center/cover;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
-    #recipes {
-        font-size: 3rem;
-        text-align: center;
-        text-transform: uppercase;
-    }
+#recipes {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
 
-    #recipes a {
-        text-decoration: none;
-        color: #deb;
-    }
+#recipes a {
+    text-decoration: none;
+    color: #deb;
+}
 
-    #recipe-selection{
-        font-size: 1.6rem;
-        font-weight: bolder;
-        letter-spacing: 2px;
-    }
+#recipe-selection{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
 
 /* Indications regarding prep time cook time and difficulty */
-    #recipe-selection p{
-        font-size: 1rem;
-        font-weight: bolder;
-        color:#deb;
-    }
+#recipe-selection p{
+    font-size: 1rem;
+    font-weight: bolder;
+    color:#deb;
+}
 
-    #recipe-selection div{
+#recipe-selection div{
     padding-top: 15px;
     padding-bottom: 15px;
     }
 
 /* Spicy Chicken Popcorn Recipe Selection Box */
-    #spicy-chicken-popcorn {
+#spicy-chicken-popcorn {
     background: url('../images/spicy-chicken-popcorn.jpg') no-repeat center center/cover;
 }
 
@@ -232,6 +232,7 @@ main #hero {
     font-size: 0.8rem;
     font-family: 'Poiret One', sans-serif;
 }
+
     /* Prep Time Cook Time Difficulty Bar */
 #prep-cook-difficulty-bar{
     height:20px;
@@ -292,6 +293,48 @@ main #hero {
     color: #deb;
     padding-left: 20px;
 }
+
+/* Form */
+#sign-up {
+    background-image: url("../images/sign-up-hero-image.webp");
+    background-size: cover;
+    background-position: 50%;
+    padding: 175px 10% 0 10%;
+    flex-grow: 1;
+    height: 100vh;
+}
+
+#sign-up-form {
+    font-family:'Roboto',sans-serif;
+    color: #deb;
+    background-color: rgba(60, 60, 60, 0.4);
+    padding: 30px;
+}
+
+#sign-up-form>h2 {
+    color: #deb;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #deb;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.sign-up-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgb(252, 115, 65);
+    color: #deb;
+}
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
@@ -310,266 +353,298 @@ main #hero {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        font-family: 'Righteous', sans-serif;
-    }
+/* Header */
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    font-family: 'Righteous', sans-serif;
+}
 
-    #menu {
-        display: flex;
-    }
+#menu {
+    display: flex;
+}
 
-    #menu>li {
-        padding-left: 1rem;   
-    }
+#menu>li {
+    padding-left: 1rem;   
+}
 
-    .nav-toggle-label {
-        display: none;
-    }
+.nav-toggle-label {
+    display: none;
+}
 
-     #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
 
-    /* Main Content */
-    main {
-        /* Push main content down to accomodate larger header */
-        margin-top: 76px;
-    }
+/* Main Content */
+main {
+/* Push main content down to accomodate larger header */
+    margin-top: 76px;
+}
 
-        /* Hero section */
-        #cover-text {
-            width: 400px;
-            left: 150px;
-            bottom: 250px;
-            padding-left: 10px;
-    }
+    /* Hero section */
+#cover-text {
+    width: 400px;
+    left: 150px;
+    bottom: 250px;
+    padding-left: 10px;
+}
 
-        #mealprephub-title {
-            font-size: 200%;
-            padding-bottom: 20px;
-            font-weight: 900;
+#mealprephub-title {
+    font-size: 200%;
+    padding-bottom: 20px;
+    font-weight: 900;
 }
 
     /* Recipe Page Template */
         /*Recipe Page Hero Area*/
-    .recipe-hero-title {
-     position: absolute;
-     bottom: 40px;
-     left: 20px;
-     background-color: rgba(252, 115, 65, .5);
-     color: #deb;
-     padding-left: 10px;
-     padding-right: 10px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     font-size: 1.2rem;
- }
-
- .recipe-hero-macros {
-     position: absolute;
-     bottom: 5px;
-     left: 20px;
-     background-color: rgba(252, 115, 65, .5);
-     color: #deb;
-     padding-left: 5px;
-     padding-right: 5px;
-     padding-top: 5px;
-     padding-bottom: 5px;
- }
-
- .recipe-hero-macros h3 {
-     font-size: 1rem;
-     font-family: 'Poiret One', sans-serif;
- }
-        /* Prep Time Cook Time Difficulty Bar */
-    #prep-cook-difficulty-bar {
-        height: 25px;
-        width: 100%;
+.recipe-hero-title {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
 }
 
-    .prep-cook-difficulty {
-        width: 100%;
-        height: 25px;
-        text-align: justify;
-        display: flex;
-        font-size: 1rem;
-        background-color: rgb(252, 115, 65);
-    }
+.recipe-hero-macros {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
-    .prep-cook-difficulty h3 {
-        font-family: 'Poiret One', sans-serif;
-        padding-left: 10px;
-    }
+.recipe-hero-macros h3 {
+    font-size: 1rem;
+    font-family: 'Poiret One', sans-serif;
+}
+    /* Prep Time Cook Time Difficulty Bar */
+#prep-cook-difficulty-bar {
+    height: 25px;
+    width: 100%;
+}
 
-        /* Ingredients & Instructions*/
-        #recipe-area {
-            height: auto;
-            width: 100%;
-            background-color: rgb(252, 157, 129);
-        }
+.prep-cook-difficulty {
+    width: 100%;
+    height: 25px;
+    text-align: justify;
+    display: flex;
+    font-size: 1rem;
+    background-color: rgb(252, 115, 65);
+}
+
+.prep-cook-difficulty h3 {
+    font-family: 'Poiret One', sans-serif;
+    padding-left: 10px;
+}
+
+    /* Ingredients & Instructions*/
+#recipe-area {
+    height: auto;
+    width: 100%;
+    background-color: rgb(252, 157, 129);
+}
     
-        .recipe-container {
-            display: flex;
-            flex-direction: row;
-        }
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+}
     
-        .recipe-child {
-            flex: 1;
-            border: 2px #3a3a3a;
-        }
+.recipe-child {
+    flex: 1;
+    border: 2px #3a3a3a;
+}
     
-        .recipe-child:first-child {
-            flex-basis: 30vw;
-            flex-grow: 1;
-            border-right: 5px solid #deb;
-            border-bottom: 5px solid #deb;
-            border-radius: 20px;
-        }
+.recipe-child:first-child {
+    flex-basis: 30vw;
+    flex-grow: 1;
+    border-right: 5px solid #deb;
+    border-bottom: 5px solid #deb;
+    border-radius: 20px;
+}
         
-        .recipe-child:nth-child(2) {
-             flex-basis: 70vw;
-             flex-grow: 1;
-             border-right: 5px solid #deb;
-             border-bottom: 5px solid #deb;
-             border-radius: 20px;
-        }
+.recipe-child:nth-child(2) {
+    flex-basis: 70vw;
+    flex-grow: 1;
+    border-right: 5px solid #deb;
+    border-bottom: 5px solid #deb;
+    border-radius: 20px;
+}
 
-        .recipe-child h3 {
-            font-family: 'Poiret One', sans-serif;
-            font-size: 1.5rem;
-            padding-left: 10px;
-        }
+.recipe-child h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
 
-        .recipe-child ul {
-            font family:'Roboto', sans-serif;
-            font-size: 1rem;
-            color: #deb;
-            padding-left: 20px;
-        }
+.recipe-child ul {
+    font family:'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 20px;
+}
 
-        .recipe-child ol {
-            font family: 'Roboto', sans-serif;
-            font-size: 1rem;
-            color: #deb;
-            padding-left: 15px;
-        }
+.recipe-child ol {
+    font family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 15px;
+}
+
+/* Form */
+#sign-up {
+    background-position: center;
+    position: relative;
+}
+
+#sign-up-form {
+    max-width:100%;
+    position: absolute;
+    left:30%;
+    top:200px;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #deb;
-    }
+#menu a:hover {
+    border-bottom: 1px solid #deb;
+}
 
-    /* Recipe Page Template */
-        /*Recipe Page Hero Area*/
-    .recipe-hero-title {
-            position: absolute;
-            bottom: 40px;
-            left: 20px;
-            background-color: rgba(252, 115, 65, .5);
-            color: #deb;
-            padding-left: 10px;
-            padding-right: 10px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            font-size: 2rem;
-    }
+/* Recipe Page Template */
+    /*Recipe Page Hero Area*/
+.recipe-hero-title {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
 
-        .recipe-hero-macros {
-            position: absolute;
-            bottom: 5px;
-            left: 20px;
-            background-color: rgba(252, 115, 65, .5);
-            color: #deb;
-            padding-left: 5px;
-            padding-right: 5px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-        }
+.recipe-hero-macros {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    background-color: rgba(252, 115, 65, .5);
+    color: #deb;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
     
-        .recipe-hero-macros h3 {
-            font-size: 1rem;
-            font-family: 'Poiret One', sans-serif;
-        }
-        /* Prep Time Cook Time Difficulty Bar */
-   .prep-cook-difficulty {
-       width: 100%;
-       height: 25px;
-       text-align: justify;
-       display: flex;
-       font-size: 1rem;
-       background-color: rgb(252, 115, 65);
-   }
+.recipe-hero-macros h3 {
+    font-size: 1rem;
+    font-family: 'Poiret One', sans-serif;
+}
+/* Prep Time Cook Time Difficulty Bar */
+.prep-cook-difficulty {
+    width: 100%;
+    height: 25px;
+    text-align: justify;
+    display: flex;
+    font-size: 1rem;
+    background-color: rgb(252, 115, 65);
+}
 
-   .prep-cook-difficulty h3 {
-       font-family: 'Poiret One', sans-serif;
-       padding-left: 10px;
-   }
+.prep-cook-difficulty h3 {
+    font-family: 'Poiret One', sans-serif;
+    padding-left: 10px;
+}
 
-   /* Ingredients & Instructions*/
-   #recipe-area {
-       height: auto;
-       width: 100%;
-       background-color: rgb(252, 157, 129);
-   }
+/* Ingredients & Instructions*/
+#recipe-area {
+    height: auto;
+    width: 100%;
+    background-color: rgb(252, 157, 129);
+}
 
-   .recipe-container {
-       display: flex;
-       flex-direction: row;
-   }
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+}
 
-   .ingredients-child {
-       flex: 1;
-       border: 2px #3a3a3a;
-       position:absolute;
-   }
+.ingredients-child {
+    flex: 1;
+    border: 2px #3a3a3a;
+    position:absolute;
+}
 
-   .instructions-child {
-       flex: 1;
-       border: 2px #3a3a3a;
-       position:absolute;
-   }
+.instructions-child {
+    flex: 1;
+    border: 2px #3a3a3a;
+    position:absolute;
+}
 
-   .recipe-child:first-child {
-       flex-basis: 30vw;
-       flex-grow: 1;
-       border-right: 5px solid #deb;
-       border-bottom: 5px solid #deb;
-       border-radius: 20px;
-   }
+.recipe-child:first-child {
+    flex-basis: 30vw;
+    flex-grow: 1;
+    border-right: 5px solid #deb;
+    border-bottom: 5px solid #deb;
+    border-radius: 20px;
+}
 
-   .recipe-child:nth-child(2) {
-       flex-basis: 70vw;
-       flex-grow: 1;
-       border-right: 5px solid #deb;
-       border-bottom: 5px solid #deb;
-       border-radius: 20px;
-   }
+.recipe-child:nth-child(2) {
+    flex-basis: 70vw;
+    flex-grow: 1;
+    border-right: 5px solid #deb;
+    border-bottom: 5px solid #deb;
+    border-radius: 20px;
+}
 
-   .recipe-child h3 {
-       font-family: 'Poiret One', sans-serif;
-       font-size: 1.5rem;
-       color: #deb;
-       padding-left: 10px;
-   }
+.recipe-child h3 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.5rem;
+    color: #deb;
+    padding-left: 10px;
+}
 
-   .recipe-child ul {
-       font family: 'Roboto', sans-serif;
-       font-size: 1rem;
-       color: #deb;
-       padding-left: 20px;
-   }
+.recipe-child ul {
+    font family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 20px;
+}
 
-   .recipe-child ol {
-       font family: 'Roboto', sans-serif;
-       font-size: 1rem;
-       color: #deb;
-       padding-left: 15px;
-   }
+.recipe-child ol {
+    font family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #deb;
+    padding-left: 15px;
+}
+
+/* Form */
+#sign-up {
+    background-position: center;
+    position: relative;
+}
+
+#sign-up-form {
+    max-width: 100%;
+    position: absolute;
+    left: 30%;
+    top: 145px;
+}
+
+.sign-up-button:hover {
+    background-color: #fafafa;
+    color: rgb(252, 115, 65);
+}
