@@ -337,13 +337,29 @@ main {
 }
 
 /* Confirmation Page */
-.confirmation-hero-image {
-    height: 750px;
+..confirmation-hero-image {
+    background-position: top-left;
+    background-size: cover;
+    height: 86vh;
     width: 100%;
+    background: url("../images/confirmation.webp") no-repeat -400px/cover;
     position: relative;
 }
 
+.confirmation-hero-image #cover-text {
+    background-color: rgba(235, 120, 0, 0.5);
+    font-size: 110%;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 100px;
+    width: 45%;
+    min-height: 200px;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    left: 10px
 }
+
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
@@ -527,6 +543,30 @@ main {
     top:200px;
 }
 
+/* Confirmation Page */
+.confirmation-hero-image {
+    background-position: top-left;
+    background-size: cover;
+    height: 86vh;
+    width: 100%;
+    background: url("../images/confirmation.webp") no-repeat center/cover;
+    position: relative;
+}
+
+.confirmation-hero-image #cover-text {
+    background-color: rgba(235, 120, 0, 0.5);
+    font-size: 130%;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    width: 35%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 #menu a:hover {
@@ -656,4 +696,29 @@ main {
 .sign-up-button:hover {
     background-color: #fafafa;
     color: rgb(252, 115, 65);
+}
+
+/* Confirmation Page */
+.confirmation-hero-image {
+    background-position: top-left;
+    background-size: cover;
+    height: 86vh;
+    width: 100%;
+    background: url("../images/confirmation.webp") no-repeat center/cover;
+    position: relative;
+}
+   
+.confirmation-hero-image #cover-text {
+    background-color: rgba(235, 120, 0, 0.5);
+    font-size: 130%;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 150px;
+    left: 10px;
+    width: 31%;
+    min-height: 90px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
