@@ -94,7 +94,7 @@ main {
 }
 
 /* Hero section */
-main #hero {
+.home-hero-image {
     height: 750px;
     width: 100%;
     background: url("../images/mealprephero.webp") no-repeat center center/cover;
@@ -334,6 +334,15 @@ main #hero {
     font-size: 100%;
     background-color: rgb(252, 115, 65);
     color: #deb;
+}
+
+/* Confirmation Page */
+.confirmation-hero-image {
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
 }
 /* Footer */
 #social-networks {
