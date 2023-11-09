@@ -91,6 +91,7 @@ main {
 /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 38px;
+    background-color: rgba(252, 115, 65,0.5);
 }
 
 /* Hero section */
