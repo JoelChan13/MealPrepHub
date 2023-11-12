@@ -220,6 +220,7 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1rem;
+    border-radius: 25px;
 }
 
 .recipe-hero-macros {
@@ -232,6 +233,7 @@ main {
     padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 25px;
 }
 
 .recipe-hero-macros h3 {
