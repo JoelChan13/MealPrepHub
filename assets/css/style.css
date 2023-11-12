@@ -165,6 +165,10 @@ main {
     padding-bottom: 15px;
     }
 
+#recipe-selection span{
+    background-color: rgba(235, 120, 0, 0.4);
+    border-radius: 25px;
+}
 /* Spicy Chicken Popcorn Recipe Selection Box */
 #spicy-chicken-popcorn {
     background: url('../images/spicy-chicken-popcorn.jpg') no-repeat center center/cover;
