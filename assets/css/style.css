@@ -259,6 +259,7 @@ main {
 .prep-cook-difficulty h3 {
     font-family: 'Poiret One', sans-serif;
     padding-left: 10px;
+    font-size: 0.5rem;
 }
 
     /* Ingredients & Instructions*/
@@ -493,6 +494,7 @@ main {
 .prep-cook-difficulty h3 {
     font-family: 'Poiret One', sans-serif;
     padding-left: 10px;
+    font-size: 1rem;
 }
 
     /* Ingredients & Instructions*/
@@ -657,6 +659,7 @@ main {
 .prep-cook-difficulty h3 {
     font-family: 'Poiret One', sans-serif;
     padding-left: 10px;
+    font-size: 1rem;
 }
 
 /* Ingredients & Instructions*/
