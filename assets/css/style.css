@@ -313,7 +313,7 @@ main {
 #sign-up-form {
     font-family:'Roboto',sans-serif;
     color: #deb;
-    background-color: rgba(60, 60, 60, 0.4);
+    background-color: rgba(60, 60, 60, 0.5);
     padding: 30px;
 }
 
@@ -343,27 +343,29 @@ main {
 }
 
 /* Confirmation Page */
-..confirmation-hero-image {
+.confirmation-hero-image {
     background-position: top-left;
     background-size: cover;
     height: 86vh;
     width: 100%;
-    background: url("../images/confirmation.webp") no-repeat -400px/cover;
+    background: url("../images/confirmation.webp") no-repeat center/cover;
     position: relative;
 }
 
 .confirmation-hero-image #cover-text {
-    background-color: rgba(235, 120, 0, 0.5);
+    background-color: rgba(235, 120, 0, 0.4);
     font-size: 110%;
     text-transform: capitalize;
     position: absolute;
     bottom: 100px;
-    width: 45%;
+    width: 55%;
     min-height: 200px;
-    padding-top: 30px;
-    padding-left: 15px;
+    padding-top: 40px;
+    padding-left: 5px;
     padding-bottom: 10px;
-    left: 10px
+    padding-right:5px;
+    left: 10px;
+    text-align: center;
 }
 
 /* Footer */
@@ -568,7 +570,7 @@ main {
 }
 
 .confirmation-hero-image #cover-text {
-    background-color: rgba(235, 120, 0, 0.5);
+    background-color: rgba(235, 120, 0, 0.4);
     font-size: 130%;
     text-transform: capitalize;
     position: absolute;
@@ -745,7 +747,7 @@ main {
 }
    
 .confirmation-hero-image #cover-text {
-    background-color: rgba(235, 120, 0, 0.5);
+    background-color: rgba(235, 120, 0, 0.4);
     font-size: 130%;
     text-transform: capitalize;
     position: absolute;
