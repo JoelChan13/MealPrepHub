@@ -509,15 +509,15 @@ main {
     
 .recipe-child {
     flex: 1;
-    border: 2px #3a3a3a;
+    border: 1px #3a3a3a;
 }
     
 .recipe-child:first-child {
     flex-basis: 30vw;
     flex-grow: 1;
-    border-right: 5px solid #deb;
-    border-bottom: 5px solid #deb;
-    border-radius: 20px;
+    border-right: 3px solid #deb;
+    border-bottom: 3px solid #deb;
+    border-radius: 25px;
 }
         
 .recipe-child:nth-child(2) {
@@ -525,7 +525,7 @@ main {
     flex-grow: 1;
     border-right: 5px solid #deb;
     border-bottom: 5px solid #deb;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .recipe-child h3 {
