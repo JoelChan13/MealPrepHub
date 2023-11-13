@@ -345,6 +345,19 @@ main {
     color: #deb;
 }
 
+input,
+textarea {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #deb;
+    border-radius: 5px;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
 /* Confirmation Page */
 .confirmation-hero-image {
     background-position: top-left;
@@ -563,6 +576,19 @@ main {
     top:200px;
 }
 
+input,
+textarea {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #deb;
+    border-radius: 5px;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
 /* Confirmation Page */
 .confirmation-hero-image {
     background-position: top-left;
@@ -739,6 +765,19 @@ main {
 .sign-up-button:hover {
     background-color: #fafafa;
     color: rgb(252, 115, 65);
+}
+
+input,
+textarea {
+    margin: 5px 0;
+    padding: 5px 10px;
+    border: 1px solid #deb;
+    border-radius: 5px;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
 }
 
 /* Confirmation Page */
