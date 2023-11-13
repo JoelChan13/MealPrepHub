@@ -290,14 +290,14 @@ main {
 }
 
 .recipe-child ul {
-    font family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 20px;
 }
 
 .recipe-child ol {
-    font family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 20px;
@@ -360,7 +360,7 @@ textarea:invalid {
 
 /* Confirmation Page */
 .confirmation-hero-image {
-    background-position: top-left;
+    background-position: 0 0;
     background-size: cover;
     height: 86vh;
     width: 100%;
@@ -550,14 +550,14 @@ main {
 }
 
 .recipe-child ul {
-    font family:'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 20px;
 }
 
 .recipe-child ol {
-    font family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 15px;
@@ -591,7 +591,7 @@ textarea:invalid {
 
 /* Confirmation Page */
 .confirmation-hero-image {
-    background-position: top-left;
+    background-position: 0 0;
     background-size: cover;
     height: 86vh;
     width: 100%;
@@ -736,14 +736,14 @@ textarea:invalid {
 }
 
 .recipe-child ul {
-    font family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 20px;
 }
 
 .recipe-child ol {
-    font family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 15px;
@@ -782,7 +782,7 @@ textarea:invalid {
 
 /* Confirmation Page */
 .confirmation-hero-image {
-    background-position: top-left;
+    background-position: 0 0;
     background-size: cover;
     height: 86vh;
     width: 100%;
