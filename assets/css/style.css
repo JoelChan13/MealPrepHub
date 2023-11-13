@@ -1,5 +1,6 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poiret+One&family=Righteous&family=Roboto:wght@400;700;900&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -17,11 +18,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Righteous', sans-serif;
     letter-spacing: 2px;
     color: #deb
 }
+
 /* Header */
 header {
     background-color: rgb(252, 115, 65);
@@ -47,14 +51,14 @@ header a {
     list-style-type: none;
 }
 
-#menu > ul {
+#menu>ul {
     font-family: 'Righteous', sans-serif;
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -83,15 +87,16 @@ nav {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main */
 main {
-/* Make main element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 38px;
-    background-color: rgba(252, 115, 65,0.5);
+    background-color: rgba(252, 115, 65, 0.5);
 }
 
 /* Hero section */
@@ -103,7 +108,7 @@ main {
 }
 
 #cover-text {
-/* Final rgba value sets the opacity level */
+    /* Final rgba value sets the opacity level */
     background-color: rgba(235, 120, 0, 0.7);
     font-size: 130%;
     text-transform: capitalize;
@@ -116,21 +121,22 @@ main {
     border-radius: 25px;
 }
 
-#mealprephub-title{
+#mealprephub-title {
     font-size: 200%;
     padding-bottom: 20px;
     font-weight: 900;
 
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #deb;
 }
 
 /* Recipe List Section */
-    /* Recipes List Section Title */
+/* Recipes List Section Title */
 #recipe-list-title {
-    background:url('../images/recipe-page-title.webp') no-repeat center/cover;
+    background: url('../images/recipe-page-title.webp') no-repeat center/cover;
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -147,28 +153,29 @@ main {
     color: #deb;
 }
 
-#recipe-selection{
+#recipe-selection {
     font-size: 1.6rem;
     font-weight: bolder;
     letter-spacing: 2px;
 }
 
 /* Indications regarding prep time cook time and difficulty */
-#recipe-selection p{
+#recipe-selection p {
     font-size: 1rem;
     font-weight: bolder;
-    color:#deb;
+    color: #deb;
 }
 
-#recipe-selection div{
+#recipe-selection div {
     padding-top: 15px;
     padding-bottom: 15px;
-    }
+}
 
-#recipe-selection span{
+#recipe-selection span {
     background-color: rgba(235, 120, 0, 0.4);
     border-radius: 25px;
 }
+
 /* Spicy Chicken Popcorn Recipe Selection Box */
 #spicy-chicken-popcorn {
     background: url('../images/spicy-chicken-popcorn.jpg') no-repeat center center/cover;
@@ -190,7 +197,7 @@ main {
 }
 
 /* Recipe Page Template */
-    /*Recipe Page Hero Area */
+/*Recipe Page Hero Area */
 #recipe-hero {
     height: 40vh;
     width: 100%;
@@ -198,7 +205,7 @@ main {
 
 .recipe-hero-area {
     position: relative;
-    height:40vh;
+    height: 40vh;
 }
 
 #recipe-hero-image {
@@ -241,11 +248,12 @@ main {
     font-family: 'Poiret One', sans-serif;
 }
 
-    /* Prep Time Cook Time Difficulty Bar */
-#prep-cook-difficulty-bar{
-    height:20px;
-    width:100%;
+/* Prep Time Cook Time Difficulty Bar */
+#prep-cook-difficulty-bar {
+    height: 20px;
+    width: 100%;
 }
+
 .prep-cook-difficulty {
     width: 100%;
     height: 20px;
@@ -262,25 +270,25 @@ main {
     font-size: 0.5rem;
 }
 
-    /* Ingredients & Instructions*/
+/* Ingredients & Instructions*/
 #recipe-area {
-    height:auto;
+    height: auto;
     width: 100%;
-    background-color: rgb(252,157,129);
+    background-color: rgb(252, 157, 129);
 }
 
-.recipe-container{
-    display:flex;
+.recipe-container {
+    display: flex;
     flex-direction: column;
 }
 
-.recipe-child{
-    flex:1;
-    border:2px #3a3a3a;
+.recipe-child {
+    flex: 1;
+    border: 2px #3a3a3a;
 }
 
-.recipe-child:first-child{
-    margin-right:20px;
+.recipe-child:first-child {
+    margin-right: 20px;
 }
 
 .recipe-child h3 {
@@ -290,7 +298,7 @@ main {
 }
 
 .recipe-child ul {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     color: #deb;
     padding-left: 20px;
@@ -314,7 +322,7 @@ main {
 }
 
 #sign-up-form {
-    font-family:'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #deb;
     background-color: rgba(60, 60, 60, 0.5);
     padding: 30px;
@@ -379,7 +387,7 @@ textarea:invalid {
     padding-top: 40px;
     padding-left: 5px;
     padding-bottom: 10px;
-    padding-right:5px;
+    padding-right: 5px;
     left: 10px;
     text-align: center;
 }
@@ -387,7 +395,7 @@ textarea:invalid {
 /* Footer */
 #social-networks {
     background-color: rgb(252, 115, 65);
-    text-align:center;
+    text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
@@ -402,407 +410,410 @@ textarea:invalid {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-/* Header */
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-    font-family: 'Righteous', sans-serif;
-}
 
-#menu {
-    display: flex;
-}
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        font-family: 'Righteous', sans-serif;
+    }
 
-#menu>li {
-    padding-left: 1rem;   
-}
+    #menu {
+        display: flex;
+    }
 
-.nav-toggle-label {
-    display: none;
-}
+    #menu>li {
+        padding-left: 1rem;
+    }
 
-#logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
+    .nav-toggle-label {
+        display: none;
+    }
 
-/* Main Content */
-main {
-/* Push main content down to accomodate larger header */
-    margin-top: 76px;
-}
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 76px;
+    }
 
     /* Hero section */
-/* Hero section */
-.home-hero-image {
-    height: 815px;
-    width: 100%;
-    background: url("../images/mealprephero.webp") no-repeat center center/cover;
-    position: relative;
-}
+    /* Hero section */
+    .home-hero-image {
+        height: 815px;
+        width: 100%;
+        background: url("../images/mealprephero.webp") no-repeat center center/cover;
+        position: relative;
+    }
 
-#cover-text {
-    width: 400px;
-    left: 150px;
-    bottom: 250px;
-    padding-left: 10px;
-}
+    #cover-text {
+        width: 400px;
+        left: 150px;
+        bottom: 250px;
+        padding-left: 10px;
+    }
 
-#mealprephub-title {
-    font-size: 200%;
-    padding-bottom: 20px;
-    font-weight: 900;
-}
+    #mealprephub-title {
+        font-size: 200%;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
 
     /* Recipe Page Template */
-        /*Recipe Page Hero Area*/
-.recipe-hero-title {
-    position: absolute;
-    bottom: 40px;
-    left: 20px;
-    background-color: rgba(252, 115, 65, .5);
-    color: #deb;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-}
+    /*Recipe Page Hero Area*/
+    .recipe-hero-title {
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        background-color: rgba(252, 115, 65, .5);
+        color: #deb;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.2rem;
+    }
 
-.recipe-hero-macros {
-    position: absolute;
-    bottom: 5px;
-    left: 20px;
-    background-color: rgba(252, 115, 65, .5);
-    color: #deb;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+    .recipe-hero-macros {
+        position: absolute;
+        bottom: 5px;
+        left: 20px;
+        background-color: rgba(252, 115, 65, .5);
+        color: #deb;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 
-.recipe-hero-macros h3 {
-    font-size: 1rem;
-    font-family: 'Poiret One', sans-serif;
-}
+    .recipe-hero-macros h3 {
+        font-size: 1rem;
+        font-family: 'Poiret One', sans-serif;
+    }
+
     /* Prep Time Cook Time Difficulty Bar */
-#prep-cook-difficulty-bar {
-    height: 25px;
-    width: 100%;
-}
+    #prep-cook-difficulty-bar {
+        height: 25px;
+        width: 100%;
+    }
 
-.prep-cook-difficulty {
-    width: 100%;
-    height: 25px;
-    text-align: justify;
-    display: flex;
-    font-size: 1rem;
-    background-color: rgb(252, 115, 65);
-}
+    .prep-cook-difficulty {
+        width: 100%;
+        height: 25px;
+        text-align: justify;
+        display: flex;
+        font-size: 1rem;
+        background-color: rgb(252, 115, 65);
+    }
 
-.prep-cook-difficulty h3 {
-    font-family: 'Poiret One', sans-serif;
-    padding-left: 10px;
-    font-size: 1rem;
-}
+    .prep-cook-difficulty h3 {
+        font-family: 'Poiret One', sans-serif;
+        padding-left: 10px;
+        font-size: 1rem;
+    }
 
     /* Ingredients & Instructions*/
-#recipe-area {
-    height: auto;
-    width: 100%;
-    background-color: rgb(252, 157, 129);
-}
-    
-.recipe-container {
-    display: flex;
-    flex-direction: row;
-}
-    
-.recipe-child {
-    flex: 1;
-    border: 1px #3a3a3a;
-}
-    
-.recipe-child:first-child {
-    flex-basis: 30vw;
-    flex-grow: 1;
-    border-right: 3px solid #deb;
-    border-bottom: 3px solid #deb;
-    border-radius: 25px;
-}
-        
-.recipe-child:nth-child(2) {
-    flex-basis: 70vw;
-    flex-grow: 1;
-    border-right: 3px solid #deb;
-    border-bottom: 3px solid #deb;
-    border-radius: 10px;
-}
+    #recipe-area {
+        height: auto;
+        width: 100%;
+        background-color: rgb(252, 157, 129);
+    }
 
-.recipe-child h3 {
-    font-family: 'Poiret One', sans-serif;
-    font-size: 1.5rem;
-    padding-left: 10px;
-}
+    .recipe-container {
+        display: flex;
+        flex-direction: row;
+    }
 
-.recipe-child ul {
-    font-family:'Roboto', sans-serif;
-    font-size: 1rem;
-    color: #deb;
-    padding-left: 20px;
-}
+    .recipe-child {
+        flex: 1;
+        border: 1px #3a3a3a;
+    }
 
-.recipe-child ol {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: #deb;
-    padding-left: 15px;
-}
+    .recipe-child:first-child {
+        flex-basis: 30vw;
+        flex-grow: 1;
+        border-right: 3px solid #deb;
+        border-bottom: 3px solid #deb;
+        border-radius: 25px;
+    }
 
-/* Form */
-#sign-up {
-    background-position: center;
-    position: relative;
-}
+    .recipe-child:nth-child(2) {
+        flex-basis: 70vw;
+        flex-grow: 1;
+        border-right: 3px solid #deb;
+        border-bottom: 3px solid #deb;
+        border-radius: 10px;
+    }
 
-#sign-up-form {
-    max-width:100%;
-    position: absolute;
-    left:30%;
-    top:200px;
-}
+    .recipe-child h3 {
+        font-family: 'Poiret One', sans-serif;
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
 
-input,
-textarea {
-    margin: 5px 0;
-    padding: 5px 10px;
-    border: 1px solid #deb;
-    border-radius: 5px;
-}
+    .recipe-child ul {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #deb;
+        padding-left: 20px;
+    }
 
-input:invalid,
-textarea:invalid {
-    border-color: red;
-}
+    .recipe-child ol {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #deb;
+        padding-left: 15px;
+    }
 
-/* Confirmation Page */
-.confirmation-hero-image {
-    background-position: 0 0;
-    background-size: cover;
-    height: 86vh;
-    width: 100%;
-    background: url("../images/confirmation.webp") no-repeat center/cover;
-    position: relative;
-}
+    /* Form */
+    #sign-up {
+        background-position: center;
+        position: relative;
+    }
 
-.confirmation-hero-image #cover-text {
-    background-color: rgba(235, 120, 0, 0.4);
-    font-size: 130%;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 100px;
-    left: 10px;
-    width: 35%;
-    min-height: 100px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
+    #sign-up-form {
+        max-width: 100%;
+        position: absolute;
+        left: 30%;
+        top: 200px;
+    }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-#menu a:hover {
-    border-bottom: 1px solid #deb;
-}
+    input,
+    textarea {
+        margin: 5px 0;
+        padding: 5px 10px;
+        border: 1px solid #deb;
+        border-radius: 5px;
+    }
 
-/* Hero section */
-/* Hero section */
-.home-hero-image {
-    height: 815px;
-    width: 100%;
-    background: url("../images/mealprephero.webp") no-repeat center center/cover;
-    position: relative;
-}
-    
-#cover-text {
-    width: 400px;
-    left: 150px;
-    bottom: 250px;
-    padding-left: 10px;
-}
-    
-#mealprephub-title {
-    font-size: 200%;
-    padding-bottom: 20px;
-    font-weight: 900;
-}
+    input:invalid,
+    textarea:invalid {
+        border-color: red;
+    }
 
-/* Recipe Page Template */
-    /*Recipe Page Hero Area*/
-.recipe-hero-title {
-    position: absolute;
-    bottom: 40px;
-    left: 20px;
-    background-color: rgba(252, 115, 65, .5);
-    color: #deb;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 2rem;
-}
+    /* Confirmation Page */
+    .confirmation-hero-image {
+        background-position: 0 0;
+        background-size: cover;
+        height: 86vh;
+        width: 100%;
+        background: url("../images/confirmation.webp") no-repeat center/cover;
+        position: relative;
+    }
 
-.recipe-hero-macros {
-    position: absolute;
-    bottom: 5px;
-    left: 20px;
-    background-color: rgba(252, 115, 65, .5);
-    color: #deb;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-    
-.recipe-hero-macros h3 {
-    font-size: 1rem;
-    font-family: 'Poiret One', sans-serif;
-}
-/* Prep Time Cook Time Difficulty Bar */
-.prep-cook-difficulty {
-    width: 100%;
-    height: 25px;
-    text-align: justify;
-    display: flex;
-    font-size: 1rem;
-    background-color: rgb(252, 115, 65);
-}
+    .confirmation-hero-image #cover-text {
+        background-color: rgba(235, 120, 0, 0.4);
+        font-size: 130%;
+        text-transform: capitalize;
+        position: absolute;
+        bottom: 100px;
+        left: 10px;
+        width: 35%;
+        min-height: 100px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
 
-.prep-cook-difficulty h3 {
-    font-family: 'Poiret One', sans-serif;
-    padding-left: 10px;
-    font-size: 1rem;
-}
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #deb;
+        }
 
-/* Ingredients & Instructions*/
-#recipe-area {
-    height: auto;
-    width: 100%;
-    background-color: rgb(252, 157, 129);
-}
+        /* Hero section */
+        /* Hero section */
+        .home-hero-image {
+            height: 815px;
+            width: 100%;
+            background: url("../images/mealprephero.webp") no-repeat center center/cover;
+            position: relative;
+        }
 
-.recipe-container {
-    display: flex;
-    flex-direction: row;
-}
+        #cover-text {
+            width: 400px;
+            left: 150px;
+            bottom: 250px;
+            padding-left: 10px;
+        }
 
-.ingredients-child {
-    flex: 1;
-    border: 2px #3a3a3a;
-    position:absolute;
-}
+        #mealprephub-title {
+            font-size: 200%;
+            padding-bottom: 20px;
+            font-weight: 900;
+        }
 
-.instructions-child {
-    flex: 1;
-    border: 2px #3a3a3a;
-    position:absolute;
-}
+        /* Recipe Page Template */
+        /*Recipe Page Hero Area*/
+        .recipe-hero-title {
+            position: absolute;
+            bottom: 40px;
+            left: 20px;
+            background-color: rgba(252, 115, 65, .5);
+            color: #deb;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 2rem;
+        }
 
-.recipe-child:first-child {
-    flex-basis: 30vw;
-    flex-grow: 1;
-    border-right: 5px solid #deb;
-    border-bottom: 5px solid #deb;
-    border-radius: 20px;
-}
+        .recipe-hero-macros {
+            position: absolute;
+            bottom: 5px;
+            left: 20px;
+            background-color: rgba(252, 115, 65, .5);
+            color: #deb;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
 
-.recipe-child:nth-child(2) {
-    flex-basis: 70vw;
-    flex-grow: 1;
-    border-right: 5px solid #deb;
-    border-bottom: 5px solid #deb;
-    border-radius: 20px;
-}
+        .recipe-hero-macros h3 {
+            font-size: 1rem;
+            font-family: 'Poiret One', sans-serif;
+        }
 
-.recipe-child h3 {
-    font-family: 'Poiret One', sans-serif;
-    font-size: 1.5rem;
-    color: #deb;
-    padding-left: 10px;
-}
+        /* Prep Time Cook Time Difficulty Bar */
+        .prep-cook-difficulty {
+            width: 100%;
+            height: 25px;
+            text-align: justify;
+            display: flex;
+            font-size: 1rem;
+            background-color: rgb(252, 115, 65);
+        }
 
-.recipe-child ul {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: #deb;
-    padding-left: 20px;
-}
+        .prep-cook-difficulty h3 {
+            font-family: 'Poiret One', sans-serif;
+            padding-left: 10px;
+            font-size: 1rem;
+        }
 
-.recipe-child ol {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    color: #deb;
-    padding-left: 15px;
-}
+        /* Ingredients & Instructions*/
+        #recipe-area {
+            height: auto;
+            width: 100%;
+            background-color: rgb(252, 157, 129);
+        }
 
-/* Form */
-#sign-up {
-    background-position: center;
-    position: relative;
-}
+        .recipe-container {
+            display: flex;
+            flex-direction: row;
+        }
 
-#sign-up-form {
-    max-width: 100%;
-    position: absolute;
-    left: 30%;
-    top: 145px;
-}
+        .ingredients-child {
+            flex: 1;
+            border: 2px #3a3a3a;
+            position: absolute;
+        }
 
-.sign-up-button:hover {
-    background-color: #fafafa;
-    color: rgb(252, 115, 65);
-}
+        .instructions-child {
+            flex: 1;
+            border: 2px #3a3a3a;
+            position: absolute;
+        }
 
-input,
-textarea {
-    margin: 5px 0;
-    padding: 5px 10px;
-    border: 1px solid #deb;
-    border-radius: 5px;
-}
+        .recipe-child:first-child {
+            flex-basis: 30vw;
+            flex-grow: 1;
+            border-right: 5px solid #deb;
+            border-bottom: 5px solid #deb;
+            border-radius: 20px;
+        }
 
-input:invalid,
-textarea:invalid {
-    border-color: red;
-}
+        .recipe-child:nth-child(2) {
+            flex-basis: 70vw;
+            flex-grow: 1;
+            border-right: 5px solid #deb;
+            border-bottom: 5px solid #deb;
+            border-radius: 20px;
+        }
 
-/* Confirmation Page */
-.confirmation-hero-image {
-    background-position: 0 0;
-    background-size: cover;
-    height: 86vh;
-    width: 100%;
-    background: url("../images/confirmation.webp") no-repeat center/cover;
-    position: relative;
-}
-   
-.confirmation-hero-image #cover-text {
-    background-color: rgba(235, 120, 0, 0.4);
-    font-size: 130%;
-    text-transform: capitalize;
-    position: absolute;
-    bottom: 150px;
-    left: 10px;
-    width: 31%;
-    min-height: 90px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-}
+        .recipe-child h3 {
+            font-family: 'Poiret One', sans-serif;
+            font-size: 1.5rem;
+            color: #deb;
+            padding-left: 10px;
+        }
+
+        .recipe-child ul {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #deb;
+            padding-left: 20px;
+        }
+
+        .recipe-child ol {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #deb;
+            padding-left: 15px;
+        }
+
+        /* Form */
+        #sign-up {
+            background-position: center;
+            position: relative;
+        }
+
+        #sign-up-form {
+            max-width: 100%;
+            position: absolute;
+            left: 30%;
+            top: 145px;
+        }
+
+        .sign-up-button:hover {
+            background-color: #fafafa;
+            color: rgb(252, 115, 65);
+        }
+
+        input,
+        textarea {
+            margin: 5px 0;
+            padding: 5px 10px;
+            border: 1px solid #deb;
+            border-radius: 5px;
+        }
+
+        input:invalid,
+        textarea:invalid {
+            border-color: red;
+        }
+
+        /* Confirmation Page */
+        .confirmation-hero-image {
+            background-position: 0 0;
+            background-size: cover;
+            height: 86vh;
+            width: 100%;
+            background: url("../images/confirmation.webp") no-repeat center/cover;
+            position: relative;
+        }
+
+        .confirmation-hero-image #cover-text {
+            background-color: rgba(235, 120, 0, 0.4);
+            font-size: 130%;
+            text-transform: capitalize;
+            position: absolute;
+            bottom: 150px;
+            left: 10px;
+            width: 31%;
+            min-height: 90px;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+    }
 }

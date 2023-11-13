@@ -54,11 +54,11 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 #### HTML
 - No errors were returned when testing all sections of the project through the W3C validation.
 #### CSS  
+- No errors were returned when testing styling section of the project through the W3C validation.
 #### Accessibility
 - Testing was done through Lighthouse DevTool and the result was satisfactory
 ![Lighthouse Validation](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/lighthouse-validation.png?raw=true)
 #### Functional Testing
-#### Unfixed Bugs
 
 ## Deployment
 
