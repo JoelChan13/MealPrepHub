@@ -1,6 +1,8 @@
 # MealPrepHub
 MealPrepHub is a meal prep website that provides users with healthy and delicious recipes that can be prepared quickly and easily. The website is aimed at people who wish to maintain a healthy diet without spending a lot of time cooking. MealPrepHub offers a wide range of recipes that are designed to be easy to prepare and packed with nutrients. Macros are provided for each recipe to make it easy for the users to track ank keep up with their respective caloric intake. The website also provides tips and tricks for meal prepping, making it easy to plan your meals for the week ahead.
 
+[MealPrepHub Link](hhttps://joelchan13.github.io/mealprephub/)
+
 ![Responsive Mockup](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/mealprephub-mockup.png?raw=true)
 
 ## Features
@@ -84,9 +86,12 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 | Access recipes from mobile device | Ingredients section sits above the Instructions section        |    Pass |
 
 ## Deployment
+- The site was deployed to GitHub pages. From the GitHub repository, access mealprephub. Click on the deployments section. Click on the active deployment link provided.
+- [MealPrepHub Link](https://joelchan13.github.io/mealprephub/)
 
 ## Credits
 
 ### Content
-
+- The code to formulate the social media links was taken from the CI Love Running Project
 ### Media
+-The images used for this website were generated using Microsoft Bing Image Creator powered by DALL·E 3.
