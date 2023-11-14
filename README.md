@@ -25,7 +25,7 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 - The same background image used for each recipe in the recipe list was used for the respective recipe page.
 - A background colour was added to the text to facilitate ease of raadability.
 
-![Recipe List](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/recipe-list.png?raw=true)
+![Recipe List](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/recipe-selection.png?raw=true)
 
 ### Recipes
 - The recipe pages feature an image of the recipe at the top of the page, below the navigation section.
@@ -34,16 +34,16 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 - The ingredients and instructions are divided into two sections, whereby the ingredients feature in an unordered list, whilst the instructions feature in an ordered list.
 - In the mobile view, the instructions sit below the ingredients list, whilst in desktop view, the instructions and ingredients sit side by side.
 
-![Recipes](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/recipes.png?raw=true)
+![Recipes](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/recipe.png?raw=true)
 
 ### Sign Up
 - The sign up section provides the users with a form to submit their details in order to sign up to MealPrepHub.
 - The form collects the user's first name, last name, and email address.
 - Upon successful submission of the details, the user is greeted with a confirmation page, thanking the user for their submission.
 
-![Sign Up Form](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/sign-up-form.png?raw=true)
+![Sign Up Form](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/sign-up-submission.png?raw=true)
 
-![Sign Up Confirmation](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/sign-up-confirmation.png?raw=true)
+![Sign Up Confirmation](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/sign-up-greeting.png?raw=true)
 
 ## Testing
 - The page was tested on multiple browsers, including Firefox, Chrome, Brave, Edge, and Safari.
