@@ -89,6 +89,11 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 - The site was deployed to GitHub pages. From the GitHub repository, access mealprephub. Click on the deployments section. Click on the active deployment link provided.
 - [MealPrepHub Link](https://joelchan13.github.io/mealprephub/)
 
+### Local Deployment
+- The repository was clones to local machine using the following command in your terminal: git clone <https://github.com/JoelChan13/mealprephub.git>
+- The following command was submitted in the terminal: cd mealprephub.
+- index.html was opened in the browser to start website.
+
 ## Credits
 
 ### Content
