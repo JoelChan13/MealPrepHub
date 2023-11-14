@@ -59,10 +59,34 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 - Testing was done through Lighthouse DevTool and the result was satisfactory
 ![Lighthouse Validation](https://github.com/JoelChan13/mealprephub/blob/main/assets/images/lighthouse-validation.png?raw=true)
 #### Functional Testing
+| Action  | Expected Outcome  | Pass/Fail |
+| :------------ |:---------------:| -----:|
+| Click on project logo | Go to Homepage/index.html        |    Pass |
+| Click on Home from Navigation bar | Go to Homepage/index.html and underlines Home link in navigation bar        |    Pass |
+| Click on Recipes from Navigation bar | Go to Recipe List Page/recipes.html and underlines Recipes link in navigation bar        |    Pass |
+| Click on Sign Up from Navigation bar | Go to Sign Up Page/sign-up.html and underlines Sign Up link in navigation bar        |    Pass |
+| Press the burger favicon from Navigation bar in mobile view | Opens drop-down list with Home, Recipes, and Sign Up links        |    Pass |
+| Click on the Facebook favicon in the footer section | Opens new tab and directs user to Facebook webpage        |    Pass |
+| Click on the Instagram favicon in the footer section | Opens new tab and directs user to Instagram webpage        |    Pass |
+| Click on the YouTube favicon in the footer section | Opens new tab and directs user to Instagram webpage        |    Pass |
+| Click on Spicy Chicken Popcorn recipe bar from the Recipe Page/recipes.html | Directs user to the Spicy Chicken Popcorn Recipe/spicy-chicken-popcorn.html and underlines Recipes link in navigation bar        |    Pass |
+| Click on BBQ Beef Meatballs recipe bar from the Recipe Page/recipes.html | Directs user to the BBQ Beef Meatballs/bbq-beef-meatballs.html and underlines Recipes link in navigation bar       |    Pass |
+| Click on Peanut Butter Protein Granola recipe bar from the Recipe Page/recipes.html | Directs user to the Peanut Butter Protein Granola Recipe/pb-protein-granola.html and underlines Recipes link in navigation bar       |    Pass |
+| Click on Protein Cinnamon Rolls recipe bar from the Recipe Page/recipes.html | Directs user to the Protein Cinnamon Rolls Recipe/protein-cinnamon-rolls.html and underlines Recipes link in navigation bar       |    Pass |
+| Submit empty Sign Up form | Presents error message prompting user to fill in the required fields whilst highlighting the border of the respective fields in red       |    Pass |
+| Submit form without first name | Present error message promting user to submit first name whilst highlighting the border of the respective field in red       |    Pass |
+| Submit form without last name | Present error message promting user to submit last name whilst highlighting the border of the respective  field in red       |    Pass |
+| Submit completed form | Field border changes from red to black and user taken to confirmation page/confirmation.html        |    Pass |
+| Hover over submit button from desktop view| submit button changes colour        |    Pass |
+| Hover over Home link on the navigation bar | Underlines Home link in navigation bar        |    Pass |
+| Hover over Recipes link on the navigation bar | Underlines Recipes link in navigation bar        |    Pass |
+| Hover over Sign Up link on the navigation bar | Underlines Sign Up link in navigation bar        |    Pass |
+| Access recipes from mobile device | Ingredients section sits above the Instructions section        |    Pass |
 
 ## Deployment
 
 ## Credits
 
 ### Content
-### Media 
+
+### Media
