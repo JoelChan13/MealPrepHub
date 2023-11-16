@@ -98,5 +98,7 @@ MealPrepHub is a meal prep website that provides users with healthy and deliciou
 
 ### Content
 - The code to formulate the social media links was taken from the CI Love Running Project
+- Boilerplate HTML Structure Code was taken from the ci-full-template found in CI GitHub repo by lechien73
+
 ### Media
 -The images used for this website were generated using Microsoft Bing Image Creator powered by DALL·E 3.
